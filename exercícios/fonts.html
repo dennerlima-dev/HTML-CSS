@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>External Fonts</title>
+    <style>
+        @font-face {
+            font-family: 'Noracle';
+            src: url('fonts/Noracle.otf') format('opentype');
+            font-weight: normal;
+            font-style: normal;
+            /*
+               Tipos de format()
+               - opentype (otf)
+               - truetype (ttf)
+               - embedded-opentype (eot)
+               - truetype-aat (Apple Advanced Typography)
+               - svg (svg)
+            */
+        }
+        @font-face {
+            font-family: 'Love';
+            src: url('fonts/love larry ttf.ttf') format('truetype');
+            font-weight: normal;
+            font-style: normal;
+        }
+        body {
+            font: normal 1em 'Noracle', 'Love', Arial, Helvetica, sans-serif;
+            text-align: left;
+        }
+        h1 {
+            font-family: 'Love', Times, serif;
+            font-size: 3em;
+            font-weight: normal;
+            text-align: center;
+        }
+        h2 {
+            text-align: right;
+        }
+    </style>
+</head>
+<body>
+    <h1>Trying differents fonts</h1>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Amet sint perspiciatis libero dolores ut rerum deserunt aut aspernatur dolorem nulla ab architecto minus, optio qui similique saepe deleniti quia repellendus? Lorem ipsum dolor sit amet consectetur, adipisicing elit. Inventore corporis sint maiores, odio fugit vel suscipit vitae cumque labore consectetur illo facere nihil distinctio. Esse ex velit qui ipsum aperiam?</p>
+    
+</body>
+</html>
